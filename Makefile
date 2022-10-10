@@ -10,7 +10,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 FTP_HOST=wilcox.dreamhost.com
 FTP_USER=reachcarecom
-FTP_TARGET_DIR=/home/reachcarecom
+FTP_TARGET_DIR=reachcarecom
 
 GITHUB_PAGES_BRANCH=gh-pages
 

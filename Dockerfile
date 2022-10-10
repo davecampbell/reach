@@ -5,7 +5,8 @@ RUN apk update && apk add \
 	git \
 	git-fast-import \
 	make \
-	openssh
+	openssh \
+	lftp
 
 RUN mkdir /website && chmod 777 /website
 COPY requirements.txt /website/
@@ -39,6 +40,6 @@ RUN mkdir /website/plugins \
 
 # bust the cache 
 WORKDIR /website 
-# COPY pelicanconf.py /website/ 
-# COPY publishconf.py /website/
-# COPY Makefile /website/
+COPY pelicanconf.py /website/ 
+COPY publishconf.py /website/
+COPY Makefile /website/

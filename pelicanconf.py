@@ -20,10 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'))
+LINKS = (('Pelican', 'http://getpelican.com/'),)
 
 # Social widget
-SOCIAL = (('Dave Campbell', 'https://daveccampbell.com'))
+SOCIAL = (('Dave Campbell', 'https://daveccampbell.com'),)
 
 DEFAULT_PAGINATION = 5
 
@@ -34,5 +34,5 @@ THEME = 'themes/pelican-bootstrap3'
 PLUGIN_PATHS = ['plugins/', ]
 PLUGINS = ['i18n_subsites', ]
 JINJA_ENVIRONMENT = {
-    'extensions': ['jinja2.ext.i18n'],
+    'extensions': ['jinja2.ext.i18n']
 }
