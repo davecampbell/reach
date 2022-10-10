@@ -9,8 +9,8 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 FTP_HOST=wilcox.dreamhost.com
-FTP_USER=daveccampbell@gmail.com
-FTP_TARGET_DIR=reachcarecom
+FTP_USER=reachcarecom
+FTP_TARGET_DIR=/home/reachcarecom
 
 GITHUB_PAGES_BRANCH=gh-pages
 
